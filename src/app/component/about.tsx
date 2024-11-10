@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function about() {
+export default function About() {
   return (
     <div id='about' className='bg-bg w-[100%] h-auto pt-32 flex justify-around items-center flex-col-reverse p-3 md:flex-row '>
     <div>
@@ -23,11 +23,11 @@ export default function about() {
       </h2>
       
       <p className='text-white text-[15px] pt-5 lg:text-[20px] flex flex-wrap'>
-      My name is Muhammad Ali, and I'm a passionate web developer.  I have a strong foundation in web design and development. I've worked on various projects, including websites, web applications, and mobile apps.I am currently open to new opportunities and collaborations. Feel free to reach out if you're interested in working together or have any projects in mind.
+      My name is Muhammad Ali and I&apos;m a passionate web developer.  I have a strong foundation in web design and development. I&apos;ve worked on various projects, including websites, web applications, and mobile apps.I am currently open to new opportunities and collaborations. Feel free to reach out if you&apos;re interested in working together or have any projects in mind.
       </p>
 
 
-     <Link href="/cv.pdf" target='_blank'> <button className='bg-black text-color text-md border-2 border-color font-bold py-2 px-6 mt-5 rounded-[30px] hover:bg-color hover:text-black lg:text-lg '>
+     <Link href="/cv.pdf" target='_blank' rel="noopener noreferrer"> <button className='bg-black text-color text-md border-2 border-color font-bold py-2 px-6 mt-5 rounded-[30px] hover:bg-color hover:text-black lg:text-lg '>
           Download CV    
       </button></Link>
     </div>

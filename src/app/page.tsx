@@ -1,4 +1,3 @@
-import react from 'react';
 import Header from '../app/component/header';
 import Herosection from '../app/component/herosection';
 import About from '../app/component/about';
