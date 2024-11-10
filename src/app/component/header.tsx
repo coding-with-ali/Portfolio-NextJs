@@ -2,7 +2,8 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { FaBars } from "react-icons/fa";
+import { FaXmark } from "react-icons/fa6";
 import Link from 'next/link';
 
 export default function Header() {
@@ -18,9 +19,9 @@ export default function Header() {
             <h2 className='text-color text-xl font-extrabold md:text-2xl lg:text-3xl xl:text-4xl cursor-pointer'>Muhammad <span className='text-white'>Ali.</span></h2>
       <div className="md:hidden" onClick={toggleMenu}>
         {isMenuOpen ? (
-          <XMarkIcon className="h-10 w-10  text-color cursor-pointer" />
+          <FaXmark className="h-10 w-10  text-color cursor-pointer" />
         ) : (
-          <Bars3Icon className="h-10 w-10 text-color cursor-pointer" />
+          <FaBars  className="h-10 w-10 text-color cursor-pointer" />
         )}
       </div>
       
